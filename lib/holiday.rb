@@ -116,7 +116,7 @@ def all_holidays_with_bbq(holiday_hash)
    holiday_hash.collect do |season, season_hash|
     
     season_hash.collect do |festival, supply_arr|
-        supply_arr.select{|supply| }.collect do |supply|
+        supply_arr.select{|supply| supply == "BBQ"}.collect do |supply|
           
     end
     
